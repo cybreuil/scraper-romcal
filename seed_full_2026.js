@@ -122,11 +122,11 @@ function parseMonthDay(isoDate) {
 
 const calendar = await romcal.generateCalendar(year);
 
-const rankSet = new Set();
-for (const days of Object.values(calendar)) {
-	for (const d of days) rankSet.add(String(d.rank || ""));
-}
-console.log("Ranks seen in runtime:", [...rankSet].sort());
+// const rankSet = new Set();
+// for (const days of Object.values(calendar)) {
+// 	for (const d of days) rankSet.add(String(d.rank || ""));
+// }
+// console.log("Ranks seen in runtime:", [...rankSet].sort());
 
 // Flatten date -> days[]
 const flattened = [];
