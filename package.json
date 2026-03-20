@@ -1,0 +1,25 @@
+{
+  "name": "scraper-romcal",
+  "version": "1.0.0",
+  "description": "scraping romcal roman general calendar for my database restructuration",
+  "homepage": "https://github.com/cybreuil/scraper-romcal#readme",
+  "bugs": {
+    "url": "https://github.com/cybreuil/scraper-romcal/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybreuil/scraper-romcal.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@romcal/calendar.france": "^3.0.0-dev.125",
+    "@romcal/calendar.general-roman": "^3.0.0-dev.125",
+    "romcal": "^3.0.0-dev.125"
+  }
+}
